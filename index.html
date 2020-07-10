@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header><h1 id='calc'>Calculadora</h1></header>
+    <section>
+        <p id='conta'></p>
+        <h1 id='res'>0</h1>
+        <div> 
+            <input class='n' type="button" value="7" onclick='sete()'>
+            <input class='n' type="button" value="8" onclick='oito()'>
+            <input class='n' type="button" value="9" onclick='nove()'> <input class='o' type="button" value="&#247;"
+                onclick='divisao()'></br>
+            <input class='n' type="button" value="4" onclick='quatro()'>
+            <input class='n' type="button" value="5" onclick='cinco()'>
+            <input class='n' type="button" value="6" onclick='seis()'> <input class='o' type="button" value="&#215;"
+                onclick='multiplicaçao()'></br>
+            <input class='n' type="button" value="1" onclick='um()'>
+            <input class='n' type="button" value="2" onclick='dois()'>
+            <input class='n' type="button" value="3" onclick='tres()'> <input class='o' type="button" value="&#8722;"
+                onclick='subtraçao()'></br>
+            <input class='o' type="button" value="." onclick='pon()'>
+            <input class='n' type="button" value="0" onclick='zero()'>
+            <input class='o' type="button" value="&#61;" onclick='igual()'> <input class='o' type="button" value="&#43;"
+                onclick='adiçao()'></br>
+            <input id='c' type="button" value="C" onclick='c()'>
+        </div>
+    </section>
+    <script src="js.js"></script>
+</body>
+</html>
